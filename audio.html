@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Audio - My Restaurant</title>
+<style>
+  body { font-family: Arial, sans-serif; background:#fff8f0; color:#333; margin: 0; padding: 20px; text-align: center; }
+  h1 { color: #d2691e; }
+  audio { width: 100%; max-width: 400px; margin-top: 20px; }
+  nav { margin-bottom: 20px; text-align: left; }
+  a { text-decoration: none; color: #d2691e; font-weight: bold; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="PAGE INDEX.HTML">Home</a>
+</nav>
+<h1>Listen to Our Ambiance</h1>
+<audio controls>
+  <source src="audio/song.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+<a href="PAGE INDEX.HTML" class="home-button" role="button">Back to Home</a>
+
+<style>
+  .home-button {
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    padding: 12px 0;
+    background: #c75b12;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .home-button:hover,
+  .home-button:focus {
+    background: #a14a0d;
+  }
+</style>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Customer Reviews - My Restaurant</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff7f0;
+    color: #4a3c31;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    color: #c75b12;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  nav {
+    margin-bottom: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #c75b12;
+    font-weight: bold;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto 40px;
+    background: #f1d9b6;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(199, 91, 18, 0.3);
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #6e4b25;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 12px;
+    border: 2px solid #c75b12;
+    border-radius: 6px;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  }
+  
+ 
+  button {
+    background: #c75b12;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 6px;
+  
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+</style>
+</head>
+<body>
+<nav>
+  <a href="PAGE INDEX.HTML">Home</a>
+</nav>
+<h1>Customer Reviews</h1>
+<form id="review-form">
+  <label for="review-text">Your Review</label>
+  <textarea id="review-text" name="review-text" required placeholder="Write your experience here..."></textarea>
+  
+  <label>Your Rating</label>
+  
+
+  
+  <button type="submit">Submit Review</button>
+</form>
+<section class="reviews" id="reviews-list">
+  <h2 style="text-align:center; color:#c75b12; margin-bottom: 25px;">Previous Reviews</h2>
+
+</section>
+
+
+<a href="PAGE INDEX.HTML" class="home-button" role="button">Back to Home</a>
+
+<style>
+  .home-button {
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    padding: 12px 0;
+    background: #c75b12;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .home-button:hover,
+  .home-button:focus {
+    background: #a14a0d;
+  }
+</style>
+
+</body>
+</html>
